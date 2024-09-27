@@ -18,5 +18,5 @@ export function isRouteComponent(
 }
 
 export const linkProvideKey: InjectionKey<pluginOptions> = Symbol(
-  'vue3-router-prefetch',
+  'vue3-router-prefetcher',
 )

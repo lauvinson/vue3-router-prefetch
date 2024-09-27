@@ -16,7 +16,7 @@ export default {
 
     if (!RouterLink) {
       console.error(
-        '[vue3-router-prefetch] You need to call app.use(VueRouter) before this plugin!',
+        '[vue3-router-prefetcher] You need to call app.use(VueRouter) before this plugin!',
       )
     }
     app.component(options?.name || 'RouterLink', PrefetchLink)

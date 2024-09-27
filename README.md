@@ -1,7 +1,7 @@
-# vue3-router-prefetch
+# vue3-router-prefetcher
 
-[![NPM version](https://badgen.net/npm/v/vue3-router-prefetch)](https://npmjs.com/package/vue3-router-prefetch)
-[![NPM downloads](https://badgen.net/npm/dm/vue3-router-prefetch)](https://npmjs.com/package/vue3-router-prefetch)
+[![NPM version](https://badgen.net/npm/v/vue3-router-prefetcher)](https://npmjs.com/package/vue3-router-prefetch)
+[![NPM downloads](https://badgen.net/npm/dm/vue3-router-prefetcher)](https://npmjs.com/package/vue3-router-prefetch)
 
 ## Features
 
@@ -11,7 +11,7 @@
 ## Install
 
 ```bash
-yarn add vue3-router-prefetch
+yarn add vue3-router-prefetcher
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ You need to use this plugin after `vue-router`:
 ```js
 import { createApp } from 'vue'
 import { createRouter } from 'vue-router'
-import Vue3RouterPrefetch from 'vue3-router-prefetch'
+import Vue3RouterPrefetch from 'vue3-router-prefetcher'
 
 const app = createApp()
 const router = createRouter()
